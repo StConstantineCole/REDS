@@ -9,6 +9,53 @@
     text-underline-offset: 0.5em;
 }
 
+body {
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Services Section */
+#home-services {
+    align-items: center;
+    border: 0.1rem;
+    border-radius: 1rem;
+    margin: 1%;
+}
+
+#home-services img {
+    border-radius: 1rem;
+    width: 55%;
+    margin: 10%;
+}
+
+/* Rentals Section */
+#home-rentals {
+    align-items: center;
+    border: 0.1rem;
+    border-radius: 1rem;
+    margin: 1%;
+}
+
+/* Testimonials Section */
+
+#testimony {
+    align-items: center;
+    border: 0.1rem;
+    border-radius: 1rem;
+    margin: 1%;
+}
+
+#testimony img {
+    border-radius: 15rem;
+    width: 65%;
+    margin: 10%;
+}
+
+
+/* Footer */
+
 footer {
     background-color:  #d9d9d9;
 }
@@ -21,3 +68,4 @@ footer {
     font-size: 15px;
     color: gray;
 }
+
