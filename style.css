@@ -16,6 +16,46 @@ body {
     background-color: #f7f7f7;
 }
 
+/* Carousel */
+
+.c-item {
+    height: 480px;
+
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.6); ;
+
+}
+
+
+/* Who we are section*/
+
+.home-who-we-are button {
+    background-color: #0A2540; 
+    color: white; 
+    font-size: small;
+    padding: 10px 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Recent Projects Section*/
+.recent-projects {
+    background-color: #F1EEEE;
+}
+
+.recent-projects button {
+    background-color: #0A2540; 
+    color: white; 
+    font-size: small;
+    padding: 10px 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 /* Services Section */
 #home-services {
     align-items: center;
@@ -28,6 +68,13 @@ body {
     border-radius: 1rem;
     width: 55%;
     margin: 10%;
+}
+
+#home-services button {
+    background-color: #0A2540; 
+    color: white; 
+    font-size: small;
+    padding: 10px 20px;
 }
 
 /* Rentals Section */
