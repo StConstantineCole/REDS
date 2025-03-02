@@ -1,20 +1,26 @@
-.nav-link {
-    font-size: 15px;
-    color: gray;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-.nav-link:hover {
-    color: black;
-    text-decoration: underline;
-    text-underline-offset: 0.5em;
-}
+/* // <uniquifier>: Use a unique and descriptive class name */
 
-body {
-    font-family: 'inter', sans-serif;
-    font-size: 16px;
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+* {
+  padding: 0;
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
     color: #333;
-    background-color: #f7f7f7;
-}
+  }
 
 /* Carousel */
 
@@ -59,16 +65,11 @@ body {
 /* Services Section */
 #home-services {
     align-items: center;
-    border: 0.1rem;
-    border-radius: 1rem;
-    margin: 1%;
-}
+  }
 
-#home-services img {
-    border-radius: 1rem;
-    width: 55%;
-    margin: 10%;
-}
+  header h1 {
+    margin: 0;
+  }
 
 #home-services button {
     background-color: #0A2540; 
@@ -80,39 +81,70 @@ body {
 /* Rentals Section */
 #home-rentals {
     align-items: center;
-    border: 0.1rem;
-    border-radius: 1rem;
-    margin: 1%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0 1rem;
+    position: relative;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #ffdd57;
+  }
+
+  nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    min-width: 200px;
+    z-index: 1000;
+  }
+
+  nav ul li .dropdown a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav ul li .dropdown a:hover {
+    background-color: #f4f4f9;
+  }
+
+  nav ul li:hover .dropdown {
+    display: block;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
-
-/* Testimonials Section */
-
-#testimony {
-    align-items: center;
-    border: 0.1rem;
-    border-radius: 1rem;
-    margin: 1%;
-}
-
-#testimony img {
-    border-radius: 15rem;
-    width: 65%;
-    margin: 10%;
-}
-
-
-/* Footer */
-
-footer {
-    background-color:  #d9d9d9;
-}
-
-.box {
-    padding: 10px;
-}
-
-.footer-contact {
-    font-size: 15px;
-    color: gray;
-}
-
