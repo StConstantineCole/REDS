@@ -23,6 +23,30 @@
     color: #333;
   }*/
 
+
+
+  /*<<<<<<<<<<<<<<<<< rfq and contact form >>>>>>>>>>>>>>>>>>>>*/
+
+  .required::after {
+    content: " *";
+    color: red;
+}
+.btn-custom {
+    background-color: #0A2540;
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+}
+.btn-custom:hover {
+    background-color: #081b31;
+}
+
+P{
+  text-align: center;
+}
+ /* <<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>> */
+
+
   body {
     font-family: 'inter', sans-serif;
     font-size: 16px;
