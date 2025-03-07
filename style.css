@@ -1,29 +1,5 @@
 
-
-
-  /*<<<<<<<<<<<<<<<<< rfq and contact form >>>>>>>>>>>>>>>>>>>>*/
-
-  .required::after {
-    content: " *";
-    color: red;
-}
-.btn-custom {
-    background-color: #0A2540;
-    color: white;
-    width: 100%;
-    margin: 20px 0;
-}
-.btn-custom:hover {
-    background-color: #081b31;
-}
-
-P{
-  text-align: center;
-}
- /* <<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>> */
-
-
-  body {
+body {
     font-family: 'inter', sans-serif;
     font-size: 16px;
     background-color: #f7f7f7;
@@ -68,13 +44,12 @@ P{
 
 .c-caption {
     text-align: left;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .c-caption h1 {
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 2%;
 }
 
 .c-caption button {
@@ -122,9 +97,9 @@ P{
     border: 0.1rem;
     border-radius: 1rem;
     margin: 1%;
-  }
+}
 
-  #home-services img {
+#home-services img {
     border-radius: 1rem;
     width: 55%;
     margin: 10%;
@@ -177,12 +152,59 @@ footer {
     color: gray;
   } 
 
-  /****************************************************** About.html Page***********************************/
+/********<<<<<<<<<<<<<<<<<<< About.html Page>>>>>>>>>>>>>>***************/
 
 .about-section h1 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2%;
 }
+
+.cbanner-caption {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.cbanner-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.cbanner-caption a {
+    color: white; 
+    font-size: small;
+}
+
+/*********<<<<<<<<<<<<< rfq.html Page and Contact.html Page>>>>>>>>>>>>***/
+
+.required::after {
+    content: " *";
+    color: red;
+}
+
+.btn-custom {
+    background-color: #0A2540;
+    color: white;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.btn-custom:hover {
+    background-color: #081b31;
+}
+
+
+/********<<<<<<<<<<<<<<<<<<< service.html Page>>>>>>>>>>>>>>**************/
+
+
+/********<<<<<<<<<<<<<<<<<<< Rental.html Page>>>>>>>>>>>>>>***************/
+
+
+/********<<<<<<<<<<<<<<<<<<< Renovation.html Page>>>>>>>>>>>>>************/
+
+
+/********<<<<<<<<<<<<<<<<<<< Projects.html Page>>>>>>>>>>>>>>*************/
+
 
   
