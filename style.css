@@ -33,13 +33,12 @@ body {
 /* Carousel */
 .c-item {
     height: 500px;
-
 }
 
 .c-img {
     height: 100%;
     object-fit: cover;
-    filter:brightness(0.3); ;
+    filter:brightness(0.4); ;
 }
 
 .c-caption {
@@ -58,6 +57,10 @@ body {
     font-size: small;
     padding: 10px 20px;
     border-radius: 0%;
+}
+
+#home-carousel {
+    margin-bottom: 3%;
 }
 
 
@@ -176,6 +179,13 @@ footer {
     font-size: small;
 }
 
+.breadcrumb-nav {
+    --bs-breadcrumb-divider: '>>';
+    --bs-breadcrumb-divider-color: white;
+    font-weight: bold;
+    justify-self: center;
+}
+
 /*********<<<<<<<<<<<<< rfq.html Page and Contact.html Page>>>>>>>>>>>>***/
 
 .required::after {
@@ -200,11 +210,18 @@ footer {
 
 /********<<<<<<<<<<<<<<<<<<< Rental.html Page>>>>>>>>>>>>>>***************/
 
+.rentals{
+    margin-bottom: 5%;
+}
 
 /********<<<<<<<<<<<<<<<<<<< Renovation.html Page>>>>>>>>>>>>>************/
 
 
 /********<<<<<<<<<<<<<<<<<<< Projects.html Page>>>>>>>>>>>>>>*************/
+
+.projects{
+    margin-bottom: 5%;
+}
 
 
   
