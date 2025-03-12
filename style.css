@@ -1,37 +1,5 @@
 
-<<<<<<< HEAD
-
-
-  /*<<<<<<<<<<<<<<<<< rfq and contact form >>>>>>>>>>>>>>>>>>>>*/
-
-  .required::after {
-    content: " *";
-    color: red;
-}
-.btn-custom {
-    background-color: #0A2540;
-    color: white;
-    width: 100%;
-    margin: 20px 0;
-}
-.btn-custom:hover {
-    background-color: #081b31;
-}
-
-label{
-    margin-top: 25px;
-}
-
-P{
-  text-align: center;
-}
- /* <<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>> */
-
-
-  body {
-=======
 body {
->>>>>>> c37b77046e69f894c96a13b2fa8c3a047f6ab789
     font-family: 'inter', sans-serif;
     font-size: 16px;
     background-color: #f7f7f7;
