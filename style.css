@@ -64,13 +64,14 @@ body {
 
 
 /* Who we are section*/
-.home-who-we-are button {
+.home-who-we-are .btn {
     background-color: #0A2540; 
     color: white; 
     font-size: small;
     padding: 10px 20px;
     margin-top: 5%;
     margin-bottom: 2%;
+    border-radius: 0%;
 }
 
 .home-who-we-are h1 {
@@ -84,13 +85,14 @@ body {
     background-color: #F1EEEE;
 }
 
-.recent-projects button {
+.recent-projects .btn {
     background-color: #0A2540; 
     color: white; 
     font-size: small;
     padding: 10px 20px;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-radius: 0%;
 }
 
 /* Services Section */
