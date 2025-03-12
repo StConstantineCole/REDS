@@ -17,7 +17,7 @@ body {
     text-underline-offset: 0.5em;
 }
 
-.nav-item button{
+.nav-item .btn{
     background-color: #d9d9d9; 
     color: black; 
     font-size: small;
@@ -37,7 +37,7 @@ body {
 .c-img {
     height: 100%;
     object-fit: cover;
-    filter:brightness(0.4); ;
+    filter:brightness(0.4); 
 }
 
 .c-caption {
@@ -50,7 +50,7 @@ body {
     font-weight: bold;
 }
 
-.c-caption button {
+.c-caption .btn {
     background-color: #b5b5b5; 
     color: black; 
     font-size: small;
@@ -366,6 +366,31 @@ color: blueviolet;
 .rentals{
     margin-bottom: 5%;
 }
+
+/*
+.post-img img:hover {
+    filter: brightness(0.4);
+}
+
+.post-img button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #d9d9d9; 
+    color: black; 
+    font-size: small;
+    padding: 10px 20px;
+    border-radius: 0%;
+    text-align: center;
+}
+ 
+.post-img button:hover {
+    background-color: #0A2540;
+    color: white;
+}
+*/
 
 /********<<<<<<<<<<<<<<<<<<< Renovation.html Page>>>>>>>>>>>>>************/
 
